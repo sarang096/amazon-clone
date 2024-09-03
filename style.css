@@ -1,0 +1,330 @@
+*{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border:border-box;
+}
+.navbar{
+    height:60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.border:hover{
+    border:2px  solid #ffffff;
+}
+.websitelogo{
+    height: 55px;
+    width: 158px;   
+    background-image: url("amazonlogo.png");
+}
+.websitelogo:hover{
+    border:2px  solid #ffffff;
+}
+.locationbar:hover{
+    padding: 2.8px;
+    border:2px  solid #ffffff;
+}
+.signin:hover{
+    padding: 10px;
+    border:2px  solid #ffffff;
+}
+.return:hover{
+    padding: 10px;
+    border:2px  solid #ffffff;
+}
+.nav-cart:hover{
+    padding: 10px;
+    border:2px  solid #ffffff;
+}
+.nav-search:hover{
+    border: 4px solid orange;
+    border-radius: 9px;
+ }
+.lang:hover{
+    padding: 16px;
+    border:2px  solid #ffffff;
+}
+.backtotop:hover{
+    opacity: 0.9;
+}
+.pages a:hover{
+    text-decoration: underline;
+}
+.locationbar{
+    color: #CCCCCC;
+    font-size: 13px;
+    height: 45px;
+    width: 150px;
+}
+.addresslogo{
+    display: flex;
+    color: white;
+    font-weight:bold;
+    font-size: 14px;
+    height: 50px;
+    width: 200px;
+}
+#deliverto{
+    margin-left: 17px;
+}
+#pink{
+    margin-left: 4px;
+}
+/* dropdownbox */
+.nav-search{
+    display:flex;
+    outline: none;
+    width: 660px;
+    height: 40px;
+    border-radius: 4px;
+}   
+.searchselect{
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background-color: #E6E6E6;
+    border: none;
+    padding: 0px 0px 0px 5px solid white;
+    width: 50px;
+    font-size: 14px;
+    outline: none;
+
+}
+.searchinput{
+    padding-left: 10px;
+    width: 600px;
+    outline: none;
+    align-items: center;
+    border: none;
+}
+.searchicon{
+    width: 45px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    color: black;
+    background-color: #febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    
+}
+.flagphoto{
+    margin: 2px;
+    margin-top: 4px;
+    height: 13px;
+    width: 20px;   
+    background-size: contain;
+    background-image: url("1indflagicon.jpg");
+
+}
+.lang{
+    display: flex;
+    
+}
+.en{
+    background-color: #0f1111;
+    color: white;
+    border: none;
+    font-weight: bold;
+    outline: none;
+}
+/* box 4 */
+.nav-first{
+    font-size: 12px;
+    font-weight: 480;
+}
+.nav-second{
+
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.nav-cart{
+display: flex;
+font-size: 26px;
+}
+.carttext{
+    padding-top: 7px;
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+/* PANEL */
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+.panel-all{
+    padding-right: 10px;
+    font-weight: 700;
+
+}
+.panel-items p{
+    display: inline;
+    padding-right: 10px;
+    
+}
+.panel-items {
+    width: 75%;
+    font-size: 14px;
+}
+.Festival{
+    font-size: 25px ;
+    font-weight: 700;
+}
+.addsec{
+    height:330px;
+    background-image: url("herosection.png");
+    display: flex;
+    justify-content:center;
+    align-items: flex-end;
+}
+.heromsg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 80%;
+    color: black;
+    height: 40px;
+    font-weight: 600;
+    font-size: 0.85rem;
+    margin-bottom: 20px;
+}
+.heromsg a{
+    margin: 2px;
+    color: #007185;
+}
+/* shop section */
+.shopsection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.box{
+    height: 400px;
+    width: 22%;
+    background-color: white ;
+    margin-top: 10px;
+}
+.contentbox{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.backgroundimg{
+    height: 270px;
+    background-size: contain;
+    margin: 10px;
+    width: 234px;
+}
+.backgroundimg1{
+    height: 270px;
+    background-size: contain;
+    margin: 10px;
+    padding-left: 25.5px solid white;
+    width: 220px;
+}
+.backgroundimg3{
+    height: 254px;
+    background-size:cover;
+    margin: 10px;
+    margin-top: 25px;
+    padding-left: 25.5px solid white;
+    width: 220px;
+}
+.contentbox a{
+    color: #007185;
+    font-size:13px;
+    font-weight: 490;
+    text-decoration: none;
+    display: flex;
+    align-items: flex-end;
+}
+.backtotop{
+    height: 48px;
+    background-color: #37475a;
+    font-size: 13px;
+    font-weight:600;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.panel2{
+    background-color: #222f3e;
+    color: white;
+    height:300px;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+    
+}
+.ul p{
+    display: block;
+}
+.panel2 p{
+    padding:0px 0px 10px;
+
+}
+.footpanel3{
+    background-color: #222f3e;
+    display: flex;
+    border-top: 1px solid white;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    background-image: url("2logo.png");
+    height: 45px;
+    width: 120px;
+}
+.lang1{
+    background-color: #222f3e;
+    outline: none;
+    font-size: 13px;
+    height: 33px;
+    width: 116px;
+    padding: 4px;
+    margin: 20px;
+    margin-left:20px;
+    color:#CCCCCC;
+}
+.flagphoto2{
+    height: 30px;
+    width: 80px;
+    background-color: #222f3d;
+    border:0.5px solid #adadad;
+    display: flex;
+    align-items: center;
+}
+.flagphoto2 p{
+    font-size: 15px;
+    color: #CCCCCC;
+    margin-left: 30px;
+}
+.footpanel4{
+    height:76px;
+    color: #0F1111;
+    background-color: #0F1111;
+    border-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.pages a {
+    font-size: 13px;
+    color: white; 
+    text-decoration: none;
+    margin: 8px;
+}
